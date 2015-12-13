@@ -1,6 +1,8 @@
 raqdm
 =====
 
+[![Travis-CI Build Status](https://travis-ci.org/NateByers/raqdm.svg?branch=master)](https://travis-ci.org/NateByers/raqdm)
+
 Access data from EPA's Air Quality Data Mart in R
 
 raqdm is an R package for directly accessing data from U.S. EPA's Air Quality Data Mart (AQDM). It uses the web interface described [here](http://www.epa.gov/airdata/toc.html) to query the service and returns the results as a `data.frame`. Data can be queried synchronously or asynchronously, default values can be saved across R sessions, and a simple GUI is available to make it easier to make requests.
